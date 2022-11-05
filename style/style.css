@@ -14,14 +14,14 @@ nav{
     top:0;
 }
  ul{
-    background-color: blue;
+    background-color: rgb(121, 118, 118);
     color: white;
     text-align: center;
     height: inherit;
 }
 ul li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     height: inherit;
     padding: 10px 10px 0 ;
 
@@ -31,10 +31,12 @@ ul li {
     color: white;
     text-decoration: none;
     height: inherit;
+    font-size: 20px;
 
 }
  ul li:hover{
-    background-color:darkblue;
+    background-color:rgb(74, 74, 75);
+    color: white;
 
 }
 .main-image{
@@ -82,7 +84,7 @@ img{
     display: flex;
 }
 .feature{
-    width: 30%;
+    width: 40%;
     margin: auto;
     text-align: center;
     margin-left: 10px ;
@@ -113,7 +115,7 @@ img{
     margin-top: 10px;
 }
 .contact-form{
-    margin-top: 20px;
+     margin-top: 20px; 
     text-align: center;
     margin-bottom: 40px;
 }
@@ -167,4 +169,7 @@ button{
     width: 40px;
     padding-top:10px;
     text-align: center;
+}
+h2{
+    font-size: 30px;
 }
